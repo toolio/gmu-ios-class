@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Json' target in the 'Json' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    
+    #define NETWORK_ON [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+    #define NETWORK_OFF [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+#endif
+
+
