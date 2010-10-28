@@ -41,6 +41,18 @@
 
     self.results = [responseData yajl_JSON];
     NSLog(@"result=%@", self.results);
+    if (self.results == nil || [self.results isKindOfClass:[NSDictionary class]]) {
+//        {
+//            error = "Rate limit exceeded. Clients may not make more than 150 requests per hour.";
+//            request = "/1/statuses/public_timeline.json";
+//        }
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[(NSDictionary *)self.results objectForKey:@"error"] delegate:self
+                                              cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+        [alert show];
+        [alert release];
+        return;
+    }
+
     [self.tableView reloadData];
 }
 
