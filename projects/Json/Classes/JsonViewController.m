@@ -41,11 +41,10 @@
 
     self.results = [responseData yajl_JSON];
     NSLog(@"result=%@", self.results);
+    
+    // Twitter returns a dictionary instead of an error if there is an error
+    // display the error using an alertview.
     if (self.results == nil || [self.results isKindOfClass:[NSDictionary class]]) {
-//        {
-//            error = "Rate limit exceeded. Clients may not make more than 150 requests per hour.";
-//            request = "/1/statuses/public_timeline.json";
-//        }
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[(NSDictionary *)self.results objectForKey:@"error"] delegate:self
                                               cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
