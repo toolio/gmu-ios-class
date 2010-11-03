@@ -11,11 +11,18 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
-		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
-		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
+		282CCBFE0DB6C98000C4EA27 /* Schedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* Schedule.xib */; };
+		2840D7CE1179279E00D7F93C /* Profile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* Profile.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		9193B1631280DDBD00C1F08D /* Scores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9193B1621280DDBD00C1F08D /* Scores.xib */; };
+		9193B1651280DDC800C1F08D /* Standings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9193B1641280DDC800C1F08D /* Standings.xib */; };
+		9193B16B1280DE6700C1F08D /* SMStandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193B16A1280DE6700C1F08D /* SMStandingsViewController.m */; };
+		9193B1781280DE9700C1F08D /* SMScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193B1771280DE9700C1F08D /* SMScoresViewController.m */; };
+		9193B17B1280DEAE00C1F08D /* SMScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193B17A1280DEAE00C1F08D /* SMScheduleViewController.m */; };
+		9193B17E1280DEC600C1F08D /* SMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193B17D1280DEC600C1F08D /* SMProfileViewController.m */; };
+		9193B1981280E41C00C1F08D /* CMLeagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193B1971280E41C00C1F08D /* CMLeagueViewController.m */; };
+		9193B19B1280E42A00C1F08D /* CMTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9193B19A1280E42A00C1F08D /* CMTeamViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,15 +31,27 @@
 		1D3623250D0F684500981E51 /* SportsManagementAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsManagementAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* SportsManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
-		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* Schedule.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Schedule.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* Profile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Profile.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* SportsManagement_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsManagement_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SportsManagement-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SportsManagement-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9193B1621280DDBD00C1F08D /* Scores.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Scores.xib; sourceTree = "<group>"; };
+		9193B1641280DDC800C1F08D /* Standings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Standings.xib; sourceTree = "<group>"; };
+		9193B1691280DE6700C1F08D /* SMStandingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStandingsViewController.h; sourceTree = "<group>"; };
+		9193B16A1280DE6700C1F08D /* SMStandingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStandingsViewController.m; sourceTree = "<group>"; };
+		9193B1761280DE9700C1F08D /* SMScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScoresViewController.h; sourceTree = "<group>"; };
+		9193B1771280DE9700C1F08D /* SMScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScoresViewController.m; sourceTree = "<group>"; };
+		9193B1791280DEAE00C1F08D /* SMScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScheduleViewController.h; sourceTree = "<group>"; };
+		9193B17A1280DEAE00C1F08D /* SMScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScheduleViewController.m; sourceTree = "<group>"; };
+		9193B17C1280DEC600C1F08D /* SMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMProfileViewController.h; sourceTree = "<group>"; };
+		9193B17D1280DEC600C1F08D /* SMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMProfileViewController.m; sourceTree = "<group>"; };
+		9193B1961280E41C00C1F08D /* CMLeagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLeagueViewController.h; sourceTree = "<group>"; };
+		9193B1971280E41C00C1F08D /* CMLeagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLeagueViewController.m; sourceTree = "<group>"; };
+		9193B1991280E42A00C1F08D /* CMTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTeamViewController.h; sourceTree = "<group>"; };
+		9193B19A1280E42A00C1F08D /* CMTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTeamViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +71,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28216C950DB411BC00E5133A /* FirstViewController.h */,
-				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				9193B1611280DD2A00C1F08D /* Tabs */,
+				9193B1561280CA7D00C1F08D /* Shared */,
 				1D3623240D0F684500981E51 /* SportsManagementAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SportsManagementAppDelegate.m */,
 			);
@@ -92,9 +111,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2840D7CD1179279E00D7F93C /* FirstView.xib */,
-				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
-				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				9193B1471280CA2600C1F08D /* Images */,
+				9193B1461280CA1D00C1F08D /* XIB */,
 				8D1107310486CEB800E47090 /* SportsManagement-Info.plist */,
 			);
 			name = Resources;
@@ -108,6 +126,83 @@
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9193B1461280CA1D00C1F08D /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				2840D7CD1179279E00D7F93C /* Profile.xib */,
+				282CCBFD0DB6C98000C4EA27 /* Schedule.xib */,
+				9193B1621280DDBD00C1F08D /* Scores.xib */,
+				9193B1641280DDC800C1F08D /* Standings.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		9193B1471280CA2600C1F08D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9193B1561280CA7D00C1F08D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9193B1961280E41C00C1F08D /* CMLeagueViewController.h */,
+				9193B1971280E41C00C1F08D /* CMLeagueViewController.m */,
+				9193B1991280E42A00C1F08D /* CMTeamViewController.h */,
+				9193B19A1280E42A00C1F08D /* CMTeamViewController.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		9193B1591280CBFB00C1F08D /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				9193B1791280DEAE00C1F08D /* SMScheduleViewController.h */,
+				9193B17A1280DEAE00C1F08D /* SMScheduleViewController.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		9193B15C1280CC0200C1F08D /* Standings */ = {
+			isa = PBXGroup;
+			children = (
+				9193B1691280DE6700C1F08D /* SMStandingsViewController.h */,
+				9193B16A1280DE6700C1F08D /* SMStandingsViewController.m */,
+			);
+			name = Standings;
+			sourceTree = "<group>";
+		};
+		9193B15D1280CC0400C1F08D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9193B17C1280DEC600C1F08D /* SMProfileViewController.h */,
+				9193B17D1280DEC600C1F08D /* SMProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		9193B1601280DB9100C1F08D /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				9193B1761280DE9700C1F08D /* SMScoresViewController.h */,
+				9193B1771280DE9700C1F08D /* SMScoresViewController.m */,
+			);
+			name = Scores;
+			sourceTree = "<group>";
+		};
+		9193B1611280DD2A00C1F08D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				9193B15D1280CC0400C1F08D /* Profile */,
+				9193B1591280CBFB00C1F08D /* Schedule */,
+				9193B1601280DB9100C1F08D /* Scores */,
+				9193B15C1280CC0200C1F08D /* Standings */,
+			);
+			name = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
-				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* Schedule.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* Profile.xib in Resources */,
+				9193B1631280DDBD00C1F08D /* Scores.xib in Resources */,
+				9193B1651280DDC800C1F08D /* Standings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +271,12 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SportsManagementAppDelegate.m in Sources */,
-				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				9193B16B1280DE6700C1F08D /* SMStandingsViewController.m in Sources */,
+				9193B1781280DE9700C1F08D /* SMScoresViewController.m in Sources */,
+				9193B17B1280DEAE00C1F08D /* SMScheduleViewController.m in Sources */,
+				9193B17E1280DEC600C1F08D /* SMProfileViewController.m in Sources */,
+				9193B1981280E41C00C1F08D /* CMLeagueViewController.m in Sources */,
+				9193B19B1280E42A00C1F08D /* CMTeamViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

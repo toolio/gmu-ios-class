@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  CMLeagueViewController.h
 //  SportsManagement
 //
 //  Created by Jason Harwig on 11/2/10.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController {
+@interface CMLeagueViewController : UITableViewController {
 
 }
 
